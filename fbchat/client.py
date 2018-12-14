@@ -1763,7 +1763,6 @@ class Client(object):
         Accepts a friend request.
 
         :param from_id: The ID of the person who sent the friend request.
-        :return: Returns error if the accepting was unsuccessful, returns True when successful.
         """
         payload = {
             "actions[accept]": "1",
